@@ -1,0 +1,1 @@
+`./pretrain` is used to store pretrained speech models, such as HUBERT and Wav2vec 2.0
