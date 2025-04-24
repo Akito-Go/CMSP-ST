@@ -7,8 +7,8 @@ export TGT_LANG=en
 export SPM_MODEL=/path/to/cmsp/data/st/s2t_raw/spminfo/covost/it-en/spm_unigram10000_st_de_en.model
 export SPM_DICT=/path/to/cmsp/data/st/s2t_raw/spminfo/covost/it-en/spm_unigram10000_st_de_en.txt
 
-export TEXT_PATH_TRAIN=/path/to/cmsp/data/st/dataset/CoVoST/cv-corpus-20.0-2024-12-06/de/text
-export TEXT_PATH_DEV=/path/to/cmsp/data/st/dataset/CoVoST/cv-corpus-20.0-2024-12-06/de/text
+export TEXT_PATH_TRAIN=/path/to/cmsp/data/st/dataset/CoVoST/cv-corpus-x.x/de/text
+export TEXT_PATH_DEV=/path/to/cmsp/data/st/dataset/CoVoST/cv-corpus-x.x/de/text
 
 export DATA=covost
 export PAIR=${SRC_LANG}-${TGT_LANG}
