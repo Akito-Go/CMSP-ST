@@ -4,8 +4,8 @@ set -e -o pipefail -x
 
 export SRC_LANG=de
 export TGT_LANG=en
-export SPM_MODEL=/path/to/cmsp/data/st/s2t_raw/spminfo/covost/de-en/spm_unigram10000_st_fr_en.model
-export SPM_DICT=/path/to/cmsp/data/st/s2t_raw/spminfo/covost/de-en/spm_unigram10000_st_fr_en.txt
+export SPM_MODEL=/path/to/cmsp/data/st/s2t_raw/spminfo/covost/de-en/spm_unigram10000_st_de_en.model
+export SPM_DICT=/path/to/cmsp/data/st/s2t_raw/spminfo/covost/de-en/spm_unigram10000_st_de_en.txt
 
 export TEXT_PATH_TRAIN=/path/to/cmsp/data/mt/dataset/WMT/wmt16/de-en
 export TEXT_PATH_DEV=/path/to/cmsp/data/mt/dataset/WMT/wmt16/de-en
